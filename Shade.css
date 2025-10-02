@@ -1,0 +1,38 @@
+  /* Ascenseur */
+  
+  ::-webkit-scrollbar {height:12px; width:5px; background:none; margin-right:5px;}
+::-webkit-scrollbar-thumb {background:#E1B016; height:30px; border-radius:30px;}
+::-webkit-scrollbar-corner {background:none;}
+.cate-descr span, .redpres *{     scrollbar-color: #E1B016 #fff;
+  scrollbar-width: thin; }
+
+  
+/*Fiche de Liens */ 
+
+.redpres{ width:100%; margin:0 auto; }
+.redpres *{ box-sizing:border-box; } 
+
+.redbloc{     width: 100%;    padding: 10px;    background-color: #403d39; color:#fffcf2; }
+.redbloc span{ overflow:auto; display:block; padding:6px; }
+.redbloc h2{ margin: 5px auto;    width: 90%;    background-color: #CCC5B9;    padding: 5px;    font-family: 'Anton', sans-serif;
+  font-weight: normal;    letter-spacing: 1px;    font-size: 15px;    text-transform: uppercase;    color: #252422; }
+
+.redflex2{ display:flex; justify-content:space-between; }
+.redhis{ width:70%; }
+.redhis span{ height:380px; }
+.redhimg{ width:30%; }
+.redhimg img{ width:100%; height:100%; object-fit:cover; border:2px solid #252422; }
+
+/* Scenarios */ 
+
+.redscenario .redhis{ background-color:#403d39; } 
+.redscenario .redhis span{ height:114px; }
+.redscenario .redhis h2{ background-color:#ccc5b9; }
+.redscenario .redhis h2 strong{ font-weight:normal; color:#E1B016; }
+ 
+.redscenario .redflex2.redverse{ flex-direction:row-reverse; }
+.normal{}
+.redscenario .redflex2.normal .redhis{ margin-right:5px; }
+.redscenario .redflex2.redverse .redhis{ margin-left:5px; }
+
+
